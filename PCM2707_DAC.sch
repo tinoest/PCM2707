@@ -4485,6 +4485,55 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A3L-LOC">
+<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="373.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="357.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A3L-LOC" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A3, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4554,13 +4603,15 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5kOhm"/>
 <part name="JACK-OUT" library="akafugu" deviceset="STEREOJACK" device=""/>
-<part name="OUTPUT" library="con-lstb" deviceset="MA03-1" device=""/>
-<part name="SV1" library="con-lstb" deviceset="MA04-1" device=""/>
+<part name="OUTPUT" library="con-lstb" deviceset="MA03-1" device="" value="AUDIO"/>
+<part name="SV1" library="con-lstb" deviceset="MA04-1" device="" value="USB-WIRE"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="Molex-47346-0001" deviceset="47346-0001" device=""/>
+<part name="J1" library="Molex-47346-0001" deviceset="47346-0001" device="" value="USB"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="DOUT" library="con-molex" deviceset="87758-0216" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SUPPLY16" library="supply2" deviceset="AGND" device=""/>
+<part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4625,14 +4676,16 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <instance part="SUPPLY15" gate="VDD" x="106.68" y="40.64"/>
 <instance part="R3" gate="G$1" x="96.52" y="33.02" rot="R90"/>
 <instance part="JACK-OUT" gate="1" x="180.34" y="170.18"/>
-<instance part="OUTPUT" gate="G$1" x="35.56" y="195.58"/>
+<instance part="OUTPUT" gate="G$1" x="15.24" y="165.1"/>
 <instance part="SV1" gate="1" x="208.28" y="66.04" rot="R180"/>
 <instance part="GND11" gate="1" x="200.66" y="45.72"/>
-<instance part="J1" gate="G$1" x="210.82" y="7.62"/>
-<instance part="GND12" gate="1" x="200.66" y="-7.62"/>
+<instance part="J1" gate="G$1" x="17.78" y="137.16"/>
+<instance part="GND12" gate="1" x="7.62" y="121.92"/>
 <instance part="DOUT" gate="-1" x="139.7" y="55.88"/>
 <instance part="DOUT" gate="-2" x="139.7" y="50.8"/>
 <instance part="GND13" gate="1" x="121.92" y="48.26"/>
+<instance part="SUPPLY16" gate="G$1" x="27.94" y="160.02"/>
+<instance part="FRAME1" gate="G$1" x="-83.82" y="-40.64"/>
 </instances>
 <busses>
 </busses>
@@ -4716,7 +4769,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="200.66" y1="-5.08" x2="200.66" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="124.46" x2="7.62" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DOUT" gate="-2" pin="S"/>
@@ -4917,9 +4970,10 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <pinref part="SUPPLY13" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="193.04" x2="43.18" y2="193.04" width="0.1524" layer="91"/>
-<label x="40.64" y="193.04" size="1.778" layer="95"/>
+<wire x1="27.94" y1="162.56" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
+<label x="20.32" y="162.56" size="1.778" layer="95"/>
 <pinref part="OUTPUT" gate="G$1" pin="1"/>
+<pinref part="SUPPLY16" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -4963,10 +5017,11 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <junction x="152.4" y="162.56"/>
 <pinref part="JACK-OUT" gate="1" pin="2"/>
 <junction x="167.64" y="165.1"/>
+<label x="157.48" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="195.58" x2="43.18" y2="195.58" width="0.1524" layer="91"/>
-<label x="40.64" y="195.58" size="1.778" layer="95"/>
+<wire x1="27.94" y1="165.1" x2="22.86" y2="165.1" width="0.1524" layer="91"/>
+<label x="20.32" y="165.1" size="1.778" layer="95"/>
 <pinref part="OUTPUT" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -4980,10 +5035,11 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <junction x="144.78" y="172.72"/>
 <pinref part="JACK-OUT" gate="1" pin="5"/>
 <junction x="167.64" y="172.72"/>
+<label x="157.48" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="198.12" x2="43.18" y2="198.12" width="0.1524" layer="91"/>
-<label x="40.64" y="198.12" size="1.778" layer="95"/>
+<wire x1="27.94" y1="167.64" x2="22.86" y2="167.64" width="0.1524" layer="91"/>
+<label x="20.32" y="167.64" size="1.778" layer="95"/>
 <pinref part="OUTPUT" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -5059,8 +5115,8 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="12.7" x2="190.5" y2="12.7" width="0.1524" layer="91"/>
-<label x="190.5" y="12.7" size="1.778" layer="95"/>
+<wire x1="7.62" y1="142.24" x2="-2.54" y2="142.24" width="0.1524" layer="91"/>
+<label x="-2.54" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -5111,8 +5167,8 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="10.16" x2="190.5" y2="10.16" width="0.1524" layer="91"/>
-<label x="190.5" y="10.16" size="1.778" layer="95"/>
+<wire x1="7.62" y1="139.7" x2="-2.54" y2="139.7" width="0.1524" layer="91"/>
+<label x="-2.54" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -5134,8 +5190,8 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="200.66" y1="7.62" x2="190.5" y2="7.62" width="0.1524" layer="91"/>
-<label x="190.5" y="7.62" size="1.778" layer="95"/>
+<wire x1="7.62" y1="137.16" x2="-2.54" y2="137.16" width="0.1524" layer="91"/>
+<label x="-2.54" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -5148,12 +5204,6 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,182.88,177.8,CN1,VBUS,N$6,,,"/>
-<approved hash="115,1,24.7227,146.245,JP1,,,,,"/>
-<approved hash="115,1,191.135,174.011,CN1,,,,,"/>
-<approved hash="115,1,168.402,253.5,JP2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
