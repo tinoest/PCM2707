@@ -3,7 +3,7 @@
   (general
     (links 79)
     (no_connects 0)
-    (area 148.704299 55.994299 198.259701 94.119701)
+    (area 147.0025 54.7497 198.259701 98.75012)
     (thickness 1.6)
     (drawings 6)
     (tracks 211)
@@ -204,7 +204,7 @@
       (net 25 GND))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC03)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC03)
     (at 168.91 64.77 180)
     (path /58D52595)
     (attr smd)
@@ -222,7 +222,7 @@
       (net 11 /N$2))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_PANASONIC_C (layer Top) (tedit 200000) (tstamp 58D5BC08)
+  (module PCM2707_DAC:PASSIVES_PANASONIC_C (layer Top) (tedit 200000) (tstamp 58D5BC08)
     (at 174.625 62.865 270)
     (descr "PANASONIC ALUMINIUM ELECTROLYTIC CAPACITOR VS-SERIE PACKAGE E")
     (tags "PANASONIC ALUMINIUM ELECTROLYTIC CAPACITOR VS-SERIE PACKAGE E")
@@ -257,7 +257,7 @@
       (net 25 GND))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC0D)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC0D)
     (at 172.72 69.215 270)
     (path /58D52725)
     (attr smd)
@@ -275,7 +275,7 @@
       (net 5 /N$13))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC12)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC12)
     (at 155.575 68.8975 90)
     (path /58D527ED)
     (attr smd)
@@ -293,7 +293,7 @@
       (net 25 GND))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC17)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC17)
     (at 155.575 74.93 270)
     (path /58D528B5)
     (attr smd)
@@ -311,7 +311,7 @@
       (net 25 GND))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC1C)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC1C)
     (at 177.165 73.3425)
     (path /58D5297D)
     (attr smd)
@@ -329,7 +329,7 @@
       (net 10 /N$18))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC21)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC21)
     (at 172.72 74.295 270)
     (path /58D52A45)
     (attr smd)
@@ -347,7 +347,7 @@
       (net 24 AGND))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC26)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC26)
     (at 177.165 70.1675)
     (path /58D52B0D)
     (attr smd)
@@ -365,7 +365,7 @@
       (net 9 /N$17))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC2B)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC2B)
     (at 159.258 76.2)
     (path /58D52BD5)
     (attr smd)
@@ -383,7 +383,7 @@
       (net 25 GND))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_PANASONIC_D (layer Top) (tedit 200000) (tstamp 58D5BC30)
+  (module PCM2707_DAC:PASSIVES_PANASONIC_D (layer Top) (tedit 200000) (tstamp 58D5BC30)
     (at 175.26 80.899 90)
     (path /58D52C9D)
     (attr smd)
@@ -433,7 +433,7 @@
       (net 26 OL))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_PANASONIC_D (layer Top) (tedit 200000) (tstamp 58D5BC35)
+  (module PCM2707_DAC:PASSIVES_PANASONIC_D (layer Top) (tedit 200000) (tstamp 58D5BC35)
     (at 182.88 59.944 180)
     (path /58D52D65)
     (attr smd)
@@ -483,7 +483,7 @@
       (net 27 OR))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC3A)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC3A)
     (at 157.48 79.375 270)
     (path /58D52E2D)
     (attr smd)
@@ -560,7 +560,7 @@
     (pad M6 smd rect (at 2.91084 2.65938) (size 2.3749 1.89992) (layers Top F.Paste F.Mask))
   )
 
-  (module PCM2707_DAC:SPARKFUN-CONNECTORS_1X05_LOCK (layer Top) (tedit 200000) (tstamp 58D5BC61)
+  (module PCM2707_DAC:CONNECTORS_1X05_LOCK (layer Top) (tedit 200000) (tstamp 58D5BC61)
     (at 153.67 58.42)
     (path /58D537F1)
     (attr virtual)
@@ -634,7 +634,7 @@
       (net 3 /N$1))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC69)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC69)
     (at 159.385 81.28 270)
     (path /58D538B9)
     (attr smd)
@@ -652,7 +652,7 @@
       (net 22 /VBUS))
   )
 
-  (module PCM2707_DAC:SPARKFUN-LED_LED-0603 (layer Top) (tedit 200000) (tstamp 58D5BC6E)
+  (module PCM2707_DAC:LED_LED-0603 (layer Top) (tedit 200000) (tstamp 58D5BC6E)
     (at 151.257 62.865 90)
     (path /58D53981)
     (attr smd)
@@ -672,7 +672,7 @@
       (net 6 /N$14))
   )
 
-  (module PCM2707_DAC:SPARKFUN-LED_LED-0603 (layer Top) (tedit 200000) (tstamp 58D5BC73)
+  (module PCM2707_DAC:LED_LED-0603 (layer Top) (tedit 200000) (tstamp 58D5BC73)
     (at 158.242 69.215 90)
     (path /58D53A49)
     (attr smd)
@@ -764,7 +764,7 @@
       (net 20 /N$8))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC84)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC84)
     (at 155.575 71.755 270)
     (path /58D53CA1)
     (attr smd)
@@ -782,7 +782,7 @@
       (net 20 /N$8))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC89)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC89)
     (at 180.975 74.295 90)
     (path /58D53D69)
     (attr smd)
@@ -800,7 +800,7 @@
       (net 10 /N$18))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC8E)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC8E)
     (at 158.242 74.1045 90)
     (path /58D53E31)
     (attr smd)
@@ -818,7 +818,7 @@
       (net 7 /N$15))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC93)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC93)
     (at 180.9115 69.215 270)
     (path /58D53EF9)
     (attr smd)
@@ -836,7 +836,7 @@
       (net 9 /N$17))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC98)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC98)
     (at 176.53 75.8825 180)
     (path /58D53FC1)
     (attr smd)
@@ -854,7 +854,7 @@
       (net 14 /N$23))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC9D)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BC9D)
     (at 180.6575 64.4525 180)
     (path /58D54089)
     (attr smd)
@@ -872,7 +872,7 @@
       (net 12 /N$21))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCA2)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCA2)
     (at 161.29 81.28 270)
     (path /58D54151)
     (attr smd)
@@ -890,7 +890,7 @@
       (net 29 /D-))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCA7)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCA7)
     (at 175.26 86.995 90)
     (path /58D54219)
     (attr smd)
@@ -908,7 +908,7 @@
       (net 26 OL))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCAC)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCAC)
     (at 163.195 81.28 270)
     (path /58D542E1)
     (attr smd)
@@ -926,7 +926,7 @@
       (net 2 /D+))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCB1)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCB1)
     (at 188.595 60.0075 180)
     (path /58D543A9)
     (attr smd)
@@ -944,7 +944,7 @@
       (net 27 OR))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCB6)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCB6)
     (at 165.6715 82.55)
     (path /58D54471)
     (attr smd)
@@ -962,7 +962,7 @@
       (net 28 VDD))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCBB)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCBB)
     (at 151.13 60.96 180)
     (path /58D54539)
     (attr smd)
@@ -980,7 +980,7 @@
       (net 6 /N$14))
   )
 
-  (module PCM2707_DAC:SPARKFUN-PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCC0)
+  (module PCM2707_DAC:PASSIVES_0805 (layer Top) (tedit 200000) (tstamp 58D5BCC0)
     (at 158.115 67.31 180)
     (path /58D54601)
     (attr smd)
