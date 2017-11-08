@@ -1,6 +1,6 @@
-update=Fri 24 Mar 2017 14:30:44 GMT
+update=Sunday, 09 April 2017 'pmt' 21:27:04
 version=1
-last_client=cvpcb
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=PCM2707_DAC.net
@@ -24,11 +24,11 @@ ModuleOutlineThickness=0.150000000000
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=PCM2707_DAC
-[cvpcb]
-version=1
-NetIExt=net
+LibName1=PCM2707

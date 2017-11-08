@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name PCM2707_DAC)(type Legacy)(uri /Users/tino/GitHub/PCM2707/kicad/PCM2707_DAC.mod)(options "")(descr ""))
+  (lib (name PCM2707)(type KiCad)(uri /Users/tino/GitHub/PCM2707/kicad/PCM2707.pretty)(options "")(descr ""))
 )
